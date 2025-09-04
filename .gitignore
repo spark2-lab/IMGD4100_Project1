@@ -1,0 +1,11 @@
+# ignore all files
+*
+
+# don't ignore gitignore itself
+!.gitignore
+
+# except all files inside myAgent
+!src/
+!src/agents/
+!src/agents/myAgent/
+!src/agents/myAgent/**
